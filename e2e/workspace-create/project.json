@@ -1,0 +1,11 @@
+{
+  "name": "e2e-workspace-create",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "e2e/workspace-create",
+  "projectType": "application",
+  "targets": {
+    "e2e": {},
+    "run-e2e-tests": {}
+  },
+  "implicitDependencies": ["create-nx-workspace"]
+}

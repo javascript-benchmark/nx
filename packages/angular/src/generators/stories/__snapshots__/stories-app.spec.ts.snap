@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`angularStories generator: applications should generate stories file for inline scam component 1`] = `
+"import { Meta } from '@storybook/angular';
+import { MyScamComponent } from './my-scam.component';
+
+export default {
+  title: 'MyScamComponent',
+  component: MyScamComponent,
+} as Meta<MyScamComponent>;
+
+export const Primary = {
+  render: (args: MyScamComponent) => ({
+    props: args,
+  }),
+  args: {},
+};
+"
+`;
+
+exports[`angularStories generator: applications should ignore a path that has a nested component, but still generate nested component stories 1`] = `
+"import { Meta } from '@storybook/angular';
+import { ComponentBComponent } from './component-b.component';
+
+export default {
+  title: 'ComponentBComponent',
+  component: ComponentBComponent,
+} as Meta<ComponentBComponent>;
+
+export const Primary = {
+  render: (args: ComponentBComponent) => ({
+    props: args,
+  }),
+  args: {},
+};
+"
+`;
