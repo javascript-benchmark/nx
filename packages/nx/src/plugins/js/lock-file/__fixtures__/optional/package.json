@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "ISC",
   "dependencies": {
-    "ssh2": "1.11.0"
+    "ssh2": "1.14.0"
   },
   "packageManager": "yarn@3.3.1"
 }
