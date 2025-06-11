@@ -34,13 +34,13 @@
     "migrations": "./migrations.json"
   },
   "dependencies": {
-    "@jest/reporters": "^29.4.1",
+    "@jest/reporters": "^30.0.0",
     "@jest/test-result": "^29.4.1",
     "@phenomnomnominal/tsquery": "~5.0.1",
     "chalk": "^4.1.0",
     "dotenv": "~10.0.0",
     "identity-obj-proxy": "3.0.0",
-    "jest-config": "^29.4.1",
+    "jest-config": "^30.0.0",
     "jest-resolve": "^29.4.1",
     "jest-util": "^29.4.1",
     "resolve.exports": "1.1.0",
