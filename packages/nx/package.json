@@ -49,7 +49,7 @@
     "fs-extra": "^11.1.0",
     "glob": "7.1.4",
     "ignore": "^5.0.4",
-    "js-yaml": "4.1.0",
+    "js-yaml": "4.1.1",
     "jsonc-parser": "3.2.0",
     "lines-and-columns": "~2.0.3",
     "minimatch": "3.0.5",
